@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "James Hawkins",
+    "slug": "SPaaS",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jameshawkins.spaas"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "65b71b6e-1aa6-4e15-9e81-d1779ee42916"
+      }
+    }
+  }
+}
