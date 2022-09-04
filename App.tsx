@@ -11,7 +11,7 @@ import {
   Alert,
 } from "react-native";
 import WheelOfFortune from "./WheelOfFortune";
-import { useState } from "react";
+import React, { useState } from "react";
 const knob = require("./assets/images/knob.png");
 const center = require("./assets/images/center.png");
 const background = require("./assets/images/background2.png");
@@ -133,6 +133,7 @@ export default function App() {
             {rewards.map((reward, i) => {
               return (
                 <TextInput
+                  key={i}
                   style={styles.modalText}
                   onChange={(value) => updateValue(value, i)}
                 >

@@ -1,9 +1,8 @@
 {
   "expo": {
-    "name": "James Hawkins",
+    "name": "SPaaS",
     "slug": "SPaaS",
     "privacy": "public",
-    "sdkVersion": "32.0.0",
     "platforms": ["ios", "android"],
     "version": "1.0.0",
     "orientation": "portrait",

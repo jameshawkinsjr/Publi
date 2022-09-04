@@ -164,6 +164,7 @@ class WheelOfFortune extends Component {
 
       return (
         <Text
+          key={j}
           x={x - number.length * 5}
           y={y - 80}
           fill={this.props.options.textColors[i]}
